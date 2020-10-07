@@ -17,6 +17,6 @@ public class script1 : MonoBehaviour
     void Update()
     {
         cubeTransform.position = new Vector3(0, 0, zPosition);
-        zPosition += 0.0001f;
+        zPosition += 0.00001f;
     }
 }
